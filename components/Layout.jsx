@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className='layout'>
       <Head>
-        <title>shopping with react</title>
+        <title>Muryllo Ecommerce</title>
       </Head>
       <header>
         <Navbar />

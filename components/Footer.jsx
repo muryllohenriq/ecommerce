@@ -1,13 +1,17 @@
 import React from 'react'
-import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <p>2022 MH Headphones All rights reserved</p>
+      <p>2023 Muryllo Henrique All rights reserved</p>
       <p className='icons'>
-        <AiFillInstagram />
-        <AiOutlineTwitter />
+        <a href='https://github.com/muryllohenriq' target='_blank'>
+          <AiFillGithub />
+        </a>
+        <a href='https://www.linkedin.com/in/muryllohenrique/' target='_blank'>
+          <AiFillLinkedin />
+        </a>
       </p>
     </div>
   )
