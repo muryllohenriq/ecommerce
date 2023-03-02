@@ -9,6 +9,7 @@ const Layout = ({ children }) => {
     <div className='layout'>
       <Head>
         <title>Muryllo Ecommerce</title>
+        <link type="image/png" sizes="16x16" rel="icon" href="./favicon.png"/>
       </Head>
       <header>
         <Navbar />
